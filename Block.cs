@@ -7,6 +7,11 @@ namespace _2048
 {
     public class Block
     {
+        public Block(ulong value)
+        {
+            Value = value;
+        }
+
         public ulong Value { get; set; } = 2;
     }
 }
